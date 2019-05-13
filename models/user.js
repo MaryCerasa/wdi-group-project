@@ -6,9 +6,9 @@ const { username, email, password } = require('../lib/validation')
 
 const userSchema = new mongoose.Schema({
   name: { type: String },
-  username: { type: String, required: true, unique: true, validate: username },
-  email: { type: String, unique: true, required: true, validate: email },
-  password: { type: String, required: true, validate: password },
+  username: { type: String, required: true, unique: true },
+  email: { type: String, unique: true, required: true },
+  password: { type: String, required: true },
   isCurrentlyActive: { type: Boolean },
   isDormant: { type: Boolean },
   newsletter: { type: Boolean }
