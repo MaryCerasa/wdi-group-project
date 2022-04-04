@@ -32,9 +32,7 @@ This simple and intuitive app allows its users to create groups and assign users
 
 In addition to storing your events and tasks, 'Organise' provides you with a bright and structured interface, offering multiple ways to structure these tasks. You can add in specific categories with tasks nested within them, allowing you to prioritize an item.
 
-'Organise' also implements a friend feature that allows users to see all of their friends within the app and those who are assigned to the same task as them.
-
-The comments feature allows users to leave notes for each other, making communication and 'on-the-go' interaction quick and seamless.
+'Organise' also implements a friend feature that allows users to see all of their friends within the app and those who are assigned to the same task as them. The comments feature allows users to leave notes for each other, making communication and 'on-the-go' interaction quick and seamless.
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_app_photo.jpeg)
 
@@ -57,13 +55,11 @@ We decided the best approach to be one that takes inspiration from platforms lik
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_login.png)
 
-2.) The user can now access their personal profile, which shows their details and allows the user to make friend requests or add any other user that has requested to be their friend. Only the creator of a Group and those assigned to a Group can see that Group. 
+2.) The user can now access their personal profile, which shows their details and allows the user to make friend requests or add any other user that has requested to be their friend. Only the creator of a Group and those assigned to a Group can see that Group. Therefore any Groups that are created by someone else but assigned to you, will pop up and you will be able to work with another user within the group. 
 
-![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/tasks-and-cats.png)
+![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_workinggroups./animation.gif)
 
-Therefore any Groups that are created by someone else but assigned to you, will pop up and you will be able to work with another user within the group. 
-
-![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_workinggroups.gif)
+![Alt Text](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_workinggroups.gif)
 
 3.) If the user navigates to the Groups section, the user can create Groups for events, create Categories for the Tasks of each Group and assign any friends they have made.
 
@@ -133,25 +129,25 @@ We decided to divide our tasks evenly in order to build the application from all
 
 **Methodology & Planning:** :hourglass:
 
-1.) First we drew up back-end models on a whiteboard while discussing with the team. Each member gave feedback and helped structure the relationships.
+**Backend Models:** First we drew up back-end models on a whiteboard while discussing with the team. Each member gave feedback and helped structure the relationships.
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_whiteboard.jpeg)
 
-2.) Next we used sticky-notes to plan the navigation of the site in order to gain a holistic overview of how each component would fit together to better understand the project and what was required.
+**Site Navigation:** Next we used sticky-notes to plan the navigation of the site in order to gain a holistic overview of how each component would fit together to better understand the project and what was required.
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_brainstormnotes.jpeg)
 
-3.) Afterwards we created wireframes of how we wanted the site layout to work. We discussed for some time and arrived at wireframes focused heavily on bringing together much of the vast functionality into minimal pages.
+**Wireframes:** Afterwards we created wireframes of how we wanted the site layout to work. We discussed for some time and arrived at wireframes focused heavily on bringing together much of the vast functionality into minimal pages.
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_wireframes.png)
 
-![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_wireframestwo.png)
+![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_wireframetwo.png)
 
-4.) In order to keep track of the tasks we each had, we used Trello as a pipeline for our ideas and to manage those tasks. Using Trello at each point in the development of our app greatly helped us understand Trello itself as our source of inspiration. Since the goal was for our app to have similar functionality, using Trello helped both for managing the project and also understanding how to make the project work better.
+**Trello:** In order to keep track of the tasks we each had, we used Trello as a pipeline for our ideas and to manage those tasks. Using Trello at each point in the development of our app greatly helped us understand Trello itself as our source of inspiration. Since the goal was for our app to have similar functionality, using Trello helped both for managing the project and also understanding how to make the project work better.
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_trello.png)
 
-5.) Throughout our project, we utilised the Slack messaging platform to send each other the snippets of code that we were working on in order to overcome any problems. We also discussed Version-Control to ensure the project ran smoothly with minimal conflicts. 
+**Slack:** Throughout our project, we utilised the Slack messaging platform to send each other the snippets of code that we were working on in order to overcome any problems. We also discussed Version-Control to ensure the project ran smoothly with minimal conflicts. 
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_slackchat.png)
 
@@ -308,5 +304,3 @@ This project was a fantastic opportunity to develop my teamworking ability. I le
 ## Acknowledgements
 
  - [Stephano's Original Readme File ](https://github.com/stephanoparaskeva/wdi-project-3-group#readme)
-
->>>>>>> readme-edits
