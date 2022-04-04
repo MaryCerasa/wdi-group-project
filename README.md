@@ -1,7 +1,7 @@
 
 # Organise
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project Brief (SEI Project 3): A MERN Stack App
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) SEI Project 3: A MERN Stack App
 
 **The Task:**
 
@@ -48,11 +48,11 @@ Bulma
 
 **Tools:** Git, Bash, Yarn, GitHub, Trello, Slack, Heroku, bcrypt
 
-## Approach:
+## Approach
 
 We decided the best approach to be one that takes inspiration from platforms like Trello. Where all of the main app functionality is done and rendered on a single page. Because of this we aimed for the user to be able to post, edit and delete their Tasks, Categories and Groups all in the same place. Our biggest goal for the app was overall polish. We decided that we wanted to aim for a smooth and friendly user experience. A single page application helped bring about this effect.
 
-## Walkthrough: :runner:
+## Walkthrough :runner:
 
 1.) Before any functionality is available, the user must log in. This is because the entire user experience depends on a persistant account of that user's Groups.
 
@@ -78,7 +78,7 @@ Therefore any Groups that are created by someone else but assigned to you, will 
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_taskcompleted.gif)
 
-**Profile:**
+**User Profile:**
 
 The user profile provides all of the information on the user. It allows the user to manage their friend requests and find new friends. This functionality was possible with a Mongoose plugin called 'Mongoose Friends'.
 
@@ -124,10 +124,6 @@ module.exports = {
   allPending: usersPending
 }
 ```
-**Styling:** :art:
-
-As we aspired for polish in this project, we chose to go with a ready-built CSS framework that was both clean and flexible out-the-box called Bulma, this is because Bulma provided a great foundational framework for us to build upon. It offered a tiled layout that we chose to utilise due to its ease of use and accessibility. The sites color scheme was inspired by Trello. We wanted to add some of our own creativity and thus chose to go with a very 'classroom register' like feel. Where the layout is simple to navigate, colors are friendly to look at and functionality works smoothly.
-
 ## Our Process: ⚙️
 
 This was a group based project where we worked in a team of four. We worked together using Version-Control via Git on GitHub where I was the Git Master. All of us would communicate on what we were doing both in person and on Slack. We handled any Git conflicts together and discussed what we wanted to keep and what we didn't in order to make a cohesive decision. Features were created on separate Git branches before being merged into the Development branch.
@@ -160,9 +156,13 @@ We decided to divide our tasks evenly in order to build the application from all
 
 ![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_slackchat.png)
 
+**Styling:** :art:
+
+As we aspired for polish in this project, we chose to go with a ready-built CSS framework that was both clean and flexible out-the-box called Bulma, this is because Bulma provided a great foundational framework for us to build upon. It offered a tiled layout that we chose to utilise due to its ease of use and accessibility. The sites color scheme was inspired by Trello. We wanted to add some of our own creativity and thus chose to go with a very 'classroom register' like feel. Where the layout is simple to navigate, colors are friendly to look at and functionality works smoothly.
+
 **Testing:** 🧪
 
-Taking advantage of Mocha and Chai Stephano developed automated code in order to produce a unit test for the Groups resource. This was done to ensure the resource worked in as many edge cases as possible. This step was necessary to prove the site worked under pressure and to reveal any weaknesses that could later be corrected, before production. Testing using the Chai assertion library made his work simpler as the syntax was close to English and therefore very readable:
+Taking advantage of Mocha and Chai, Stephano developed automated code in order to produce a unit test for the Groups resource. This was done to ensure the resource worked in as many edge cases as possible. This step was necessary to prove the site worked under pressure and to reveal any weaknesses that could later be corrected, before production. Testing using the Chai assertion library made his work simpler as the syntax was close to English and therefore very readable:
 
 ```
  it('should return a 200 response', done => {
@@ -197,7 +197,7 @@ Taking advantage of Mocha and Chai Stephano developed automated code in order to
 
 This went hand-in-hand with Mocha as Mocha made the results of testing far clearer and identified what went wrong and where, which helped us to bug-fix later on.
 
-**Known Bugs:**
+**Known Bugs:** 🐛
 
 *Below are a list of some of the known issues with Organise:*
 
