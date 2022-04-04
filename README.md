@@ -1,5 +1,5 @@
 
-# Organise
+# 'Organise' App
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) SEI Project 3: A MERN Stack App
 
@@ -27,7 +27,7 @@ Build a full-stack application by creating the backend and front-end with the M
 
 **Description:**
 
-Organise is an organisational tool similiar to Trello, that allows users to increase their productivity on a given task by effectively organizing the planning of events in a clear and methodical way.
+'Organise' is an organisational tool similiar to Trello, that allows users to increase their productivity on a given task by effectively organizing the planning of events in a clear and methodical way.
 
 This simple and intuitive app allows its users to create groups and assign users to work under these groups on a given task or based on an event to plan. 
 
