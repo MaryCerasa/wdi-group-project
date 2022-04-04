@@ -57,9 +57,7 @@ We decided the best approach to be one that takes inspiration from platforms lik
 
 2.) The user can now access their personal profile, which shows their details and allows the user to make friend requests or add any other user that has requested to be their friend. Only the creator of a Group and those assigned to a Group can see that Group. Therefore any Groups that are created by someone else but assigned to you, will pop up and you will be able to work with another user within the group. 
 
-![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_workinggroups./animation.gif)
-
-![Alt Text](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_workinggroups.gif)
+![gif](https://camo.githubusercontent.com/24afbb1ac1dbba3f46677720da55db1be7407d1337a82857acca5e90648112b4/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f49627351345747687a4c41635953764457612f67697068792e676966)
 
 3.) If the user navigates to the Groups section, the user can create Groups for events, create Categories for the Tasks of each Group and assign any friends they have made.
 
@@ -71,7 +69,7 @@ We decided the best approach to be one that takes inspiration from platforms lik
 
 5.) Tasks can be edited and deleted. When a task is agreed to have been completed, and is logged as ‘Done'.
 
-![screenshot](https://github.com/marycerasa/wdi-group-project/blob/master/src/assets/screenshots/organise_taskcompleted.gif)
+![gif](https://camo.githubusercontent.com/8dbd421b3edd232c35606ffaa3c0affcc38d72849366e1fc990808c618500782/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4c33516c5870694b33554774316b356230432f67697068792e676966)
 
 **User Profile:**
 
